@@ -27,5 +27,40 @@ Audition.create(
   hired: false,
   role_id: 3
 )
+Audition.create(
+  actor: "Josh Duhamel",
+  location: "WY",
+  phone: 666_666,
+  hired: false,
+  role_id: 1
+)
+Audition.create(
+  actor: "Mila Kunis",
+  location: "NE",
+  phone: 777_777,
+  hired: false,
+  role_id: 2
+)
+Audition.create(
+  actor: "Ashton Kutcher",
+  location: "KA",
+  phone: 888_888,
+  hired: false,
+  role_id: 3
+)
+Audition.create(
+  actor: "Christian Bale",
+  location: "AR",
+  phone: 999_999,
+  hired: false,
+  role_id: 4
+)
+Audition.create(
+  actor: "Luke Evans",
+  location: "CA",
+  phone: 101_010,
+  hired: false,
+  role_id: 5
+)
 
 puts "🌱 Done seeding!"
